@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.rvslab.customernotification.ApplicationTests" time="2.896" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\test-classes;F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\classes;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-amqp\1.3.0.RELEASE\spring-boot-starter-amqp-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter\1.3.0.RELEASE\spring-boot-starter-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot\1.3.0.RELEASE\spring-boot-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.3.0.RELEASE\spring-boot-autoconfigure-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.3.0.RELEASE\spring-boot-starter-logging-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.13\slf4j-api-1.7.13.jar;C:\Users\DELL\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.13\jcl-over-slf4j-1.7.13.jar;C:\Users\DELL\.m2\repository\org\slf4j\jul-to-slf4j\1.7.13\jul-to-slf4j-1.7.13.jar;C:\Users\DELL\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.13\log4j-over-slf4j-1.7.13.jar;C:\Users\DELL\.m2\repository\org\yaml\snakeyaml\1.16\snakeyaml-1.16.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-messaging\4.2.3.RELEASE\spring-messaging-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-beans\4.2.3.RELEASE\spring-beans-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\amqp\spring-rabbit\1.5.2.RELEASE\spring-rabbit-1.5.2.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\retry\spring-retry\1.1.2.RELEASE\spring-retry-1.1.2.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\amqp\spring-amqp\1.5.2.RELEASE\spring-amqp-1.5.2.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-tx\4.2.3.RELEASE\spring-tx-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\com\rabbitmq\http-client\1.0.0.RELEASE\http-client-1.0.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.3\jackson-databind-2.6.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.3\jackson-annotations-2.6.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.3\jackson-core-2.6.3.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-web\4.2.3.RELEASE\spring-web-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\com\rabbitmq\amqp-client\3.5.6\amqp-client-3.5.6.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-mail\1.3.0.RELEASE\spring-boot-starter-mail-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-context\4.2.3.RELEASE\spring-context-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-aop\4.2.3.RELEASE\spring-aop-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-expression\4.2.3.RELEASE\spring-expression-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-context-support\4.2.3.RELEASE\spring-context-support-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\com\sun\mail\javax.mail\1.5.4\javax.mail-1.5.4.jar;C:\Users\DELL\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.3.0.RELEASE\spring-boot-starter-test-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\DELL\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\DELL\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-core\4.2.3.RELEASE\spring-core-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-test\4.2.3.RELEASE\spring-test-4.2.3.RELEASE.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Windows\TEMP\surefire4655009218944733392\surefirebooter7402760833025439033.jar C:\Windows\Temp\surefire4655009218944733392 2024-09-21T10-25-36_339-jvmRun1 surefire960006009193948252tmp surefire_08390798195508569779tmp"/>
+    <property name="surefire.test.class.path" value="F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\test-classes;F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\classes;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-amqp\1.3.0.RELEASE\spring-boot-starter-amqp-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter\1.3.0.RELEASE\spring-boot-starter-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot\1.3.0.RELEASE\spring-boot-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.3.0.RELEASE\spring-boot-autoconfigure-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.3.0.RELEASE\spring-boot-starter-logging-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.13\slf4j-api-1.7.13.jar;C:\Users\DELL\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.13\jcl-over-slf4j-1.7.13.jar;C:\Users\DELL\.m2\repository\org\slf4j\jul-to-slf4j\1.7.13\jul-to-slf4j-1.7.13.jar;C:\Users\DELL\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.13\log4j-over-slf4j-1.7.13.jar;C:\Users\DELL\.m2\repository\org\yaml\snakeyaml\1.16\snakeyaml-1.16.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-messaging\4.2.3.RELEASE\spring-messaging-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-beans\4.2.3.RELEASE\spring-beans-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\amqp\spring-rabbit\1.5.2.RELEASE\spring-rabbit-1.5.2.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\retry\spring-retry\1.1.2.RELEASE\spring-retry-1.1.2.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\amqp\spring-amqp\1.5.2.RELEASE\spring-amqp-1.5.2.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-tx\4.2.3.RELEASE\spring-tx-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\com\rabbitmq\http-client\1.0.0.RELEASE\http-client-1.0.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.3\jackson-databind-2.6.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.3\jackson-annotations-2.6.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.3\jackson-core-2.6.3.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-web\4.2.3.RELEASE\spring-web-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\com\rabbitmq\amqp-client\3.5.6\amqp-client-3.5.6.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-mail\1.3.0.RELEASE\spring-boot-starter-mail-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-context\4.2.3.RELEASE\spring-context-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-aop\4.2.3.RELEASE\spring-aop-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-expression\4.2.3.RELEASE\spring-expression-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-context-support\4.2.3.RELEASE\spring-context-support-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\com\sun\mail\javax.mail\1.5.4\javax.mail-1.5.4.jar;C:\Users\DELL\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.3.0.RELEASE\spring-boot-starter-test-1.3.0.RELEASE.jar;C:\Users\DELL\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\DELL\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\DELL\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-core\4.2.3.RELEASE\spring-core-4.2.3.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-test\4.2.3.RELEASE\spring-test-4.2.3.RELEASE.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\TEMP\surefire4655009218944733392\surefirebooter7402760833025439033.jar"/>
+    <property name="sun.boot.class.path" value="C:\jdk1.8.0_202\jre\lib\resources.jar;C:\jdk1.8.0_202\jre\lib\rt.jar;C:\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\jdk1.8.0_202\jre\lib\jsse.jar;C:\jdk1.8.0_202\jre\lib\jce.jar;C:\jdk1.8.0_202\jre\lib\charsets.jar;C:\jdk1.8.0_202\jre\lib\jfr.jar;C:\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="DELL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\DELL\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\jdk1.8.0_202\bin;D:\MongoDB\mongosh\mongosh-2.3.1-win32-x64\bin;D:\app\DELL\product\21c\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;d:\Git\cmd;D:\apache-maven-3.9.8\bin;D:\apache-tomcat-9.0.90\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\gradle-8.2\bin;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;D:\gradle-8.2;C:\Program Files\Docker\Docker\resources\bin;D:\RabbitMQ Server\rabbitmq_server-4.0.1\sbin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Programs\Python\Launcher\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="org.rvslab.customernotification.ApplicationTests" time="0.005">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mailer' defined in file [F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\classes\org\rvslab\customernotification\Mailer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+Caused by: java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+]]></error>
+    <system-out><![CDATA[10:25:38.536 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class org.rvslab.customernotification.ApplicationTests]
+10:25:38.551 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:25:38.566 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:25:38.586 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.rvslab.customernotification.ApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+10:25:38.628 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@20398b7c declaringClass = 'org.rvslab.customernotification.ApplicationTests', classes = '{class org.rvslab.customernotification.Application}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+10:25:38.645 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [org.rvslab.customernotification.ApplicationTests]: class path resource [org/rvslab/customernotification/ApplicationTests-context.xml] does not exist
+10:25:38.647 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [org.rvslab.customernotification.ApplicationTests]: class path resource [org/rvslab/customernotification/ApplicationTestsContext.groovy] does not exist
+10:25:38.647 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [org.rvslab.customernotification.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:25:38.653 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.661 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [org.rvslab.customernotification.ApplicationTests]: using defaults.
+10:25:38.678 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+10:25:38.707 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+10:25:38.732 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4232c52b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1877ab81, org.springframework.test.context.support.DirtiesContextTestExecutionListener@305fd85d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@458c1321, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@11438d26]
+10:25:38.738 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.739 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.743 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.744 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.749 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.750 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.757 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7d70d1b1 testClass = ApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2a742aa2 testClass = ApplicationTests, locations = '{}', classes = '{class org.rvslab.customernotification.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+10:25:38.759 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.759 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.rvslab.customernotification.ApplicationTests]
+10:25:38.764 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7d70d1b1 testClass = ApplicationTests, testInstance = org.rvslab.customernotification.ApplicationTests@51e2adc7, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2a742aa2 testClass = ApplicationTests, locations = '{}', classes = '{class org.rvslab.customernotification.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+10:25:38.905 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+10:25:38.909 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:25:38.909 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+10:25:38.914 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.0.RELEASE)
+
+2024-09-21 10:25:39.386  INFO 14584 --- [           main] o.r.c.ApplicationTests                   : Starting ApplicationTests on balaji-pc with PID 14584 (F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\test-classes started by DELL in F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation)
+2024-09-21 10:25:39.387  INFO 14584 --- [           main] o.r.c.ApplicationTests                   : No profiles are active
+2024-09-21 10:25:39.476  INFO 14584 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647e447: startup date [Sat Sep 21 10:25:39 IST 2024]; root of context hierarchy
+2024-09-21 10:25:40.885  INFO 14584 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$49d48678] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-21 10:25:41.003  WARN 14584 --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mailer' defined in file [F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\classes\org\rvslab\customernotification\Mailer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+2024-09-21 10:25:41.014  INFO 14584 --- [           main] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/C:/Windows/Temp/surefire4655009218944733392/surefirebooter7402760833025439033.jar]
+2024-09-21 10:25:41.029 ERROR 14584 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mailer' defined in file [F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\classes\org\rvslab\customernotification\Mailer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1105) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:838) ~[spring-context-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) ~[spring-context-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-1.3.0.RELEASE.jar:1.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:347) ~[spring-boot-1.3.0.RELEASE.jar:1.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:295) ~[spring-boot-1.3.0.RELEASE.jar:1.3.0.RELEASE]
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98) [spring-boot-1.3.0.RELEASE.jar:1.3.0.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:85) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	... 43 common frames omitted
+Caused by: java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082) ~[na:1.8.0_202]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178) ~[na:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:80) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	... 44 common frames omitted
+
+2024-09-21 10:25:41.037 ERROR 14584 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1877ab81] to prepare test instance [org.rvslab.customernotification.ApplicationTests@51e2adc7]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) ~[spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mailer' defined in file [F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\classes\org\rvslab\customernotification\Mailer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1105) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:838) ~[spring-context-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) ~[spring-context-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-1.3.0.RELEASE.jar:1.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:347) ~[spring-boot-1.3.0.RELEASE.jar:1.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:295) ~[spring-boot-1.3.0.RELEASE.jar:1.3.0.RELEASE]
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98) ~[spring-boot-1.3.0.RELEASE.jar:1.3.0.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	... 27 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:85) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	... 43 common frames omitted
+Caused by: java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082) ~[na:1.8.0_202]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178) ~[na:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:80) ~[spring-beans-4.2.3.RELEASE.jar:4.2.3.RELEASE]
+	... 44 common frames omitted
+
+]]></system-out>
+  </testcase>
+</testsuite>

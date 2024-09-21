@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.rvslab.customernotification.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.896 s <<< FAILURE! - in org.rvslab.customernotification.ApplicationTests
+contextLoads(org.rvslab.customernotification.ApplicationTests)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mailer' defined in file [F:\SpringMicroservice-master\SpringMicroservice-master\chapter2\chapter2.bootcustomernotifcation\target\classes\org\rvslab\customernotification\Mailer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.rvslab.customernotification.Mailer]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+Caused by: java.lang.NoSuchMethodException: org.rvslab.customernotification.Mailer.<init>()
+
